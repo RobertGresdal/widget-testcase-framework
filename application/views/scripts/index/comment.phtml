@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">  
+  <head>  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <title>Zend Framework Quick Start</title>  
+  </head>  
+  <body>  
+  <h1>Basic Blog</h1> 
+    <?php if(isset($this->comment)): ?> 
+        <p>
+            You just submitted the following comment:
+            <?= $this->escape($this->comment); ?>
+        </p>
+     <?php endif; ?>
+     <?= $this->form; ?>
+  </body>  
+</html>

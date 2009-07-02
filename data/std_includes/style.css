@@ -1,0 +1,16 @@
+#content {
+    border:2px solid black;
+    padding:1em;
+    background:white;
+}
+#content.pass {
+	background:#ccffcc;
+	border:2px solid #99cc99;
+}
+#content.fail {
+	background:#ffcccc;
+	border:2px solid #cc9999;
+}
+#debug {
+	white-space:pre;
+}

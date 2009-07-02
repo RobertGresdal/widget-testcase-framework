@@ -1,0 +1,38 @@
+<!-- This line outputs the doctype we set in the bootstrap -->
+<?= $this->doctype() ?> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>WTF2</title>
+  <base href="<?= !empty($_SERVER["HTTPS"])?'https://':'http://' 
+        ?><?= $_SERVER["SERVER_NAME"] 
+        ?><?= $this->layout()->config->webapp->basedir 
+        ?>" />
+  <?= $this->headLink()->appendStylesheet('css/default.css') ?> 
+</head> 
+<body>
+
+<!-- Start headers -->
+<div id="header">
+    <div id="header-logo">
+        <span>Widget Testcase Framework</span>
+    </div>
+    <!--
+    <div id="header-navigation" style="float: right">
+        <a href="<?= $this->url(
+            array('controller'=>'guestbook'), 
+            'default', 
+            true) ?>">Guestbook</a>
+    </div>-->
+</div>
+<!--  End headers  -->
+
+<!-- Start content
+	Include any content that was generated in the dispatching of a 
+	controllers action (or series of actions).  -->
+<?= $this->layout()->content ?>
+
+<!-- End content -->
+
+</body>
+</html>

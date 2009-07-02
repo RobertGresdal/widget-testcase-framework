@@ -1,0 +1,1 @@
+Tries to set the test as interactive, upon which the js library should automatically add a pass and fail button.

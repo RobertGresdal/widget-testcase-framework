@@ -1,0 +1,1 @@
+http://dev.w3.org/2006/waf/widgets-api/#the-viewmode-attribute

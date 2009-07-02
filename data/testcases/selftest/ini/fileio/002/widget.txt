@@ -1,0 +1,3 @@
+Pass if fileio is enabled
+
+fileio=yes

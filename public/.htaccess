@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ index.php [NC,L]
+
+# TODO: Move htaccess to root wtf folder away from public. Make 
+# all a rewrite condition for anything asking for stuff within 
+# the public folder so we pass that through, but don't allow for
+# anyone to ask for anything within application, data, library
+# and such folders

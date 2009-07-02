@@ -1,0 +1,1 @@
+Attempts to chain xhr requests, the second within the first. PASS condition is if loading both google.com and yahoo.com works. 

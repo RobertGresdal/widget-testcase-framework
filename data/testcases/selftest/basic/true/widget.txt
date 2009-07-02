@@ -1,0 +1,1 @@
+This testcase should pass. It does nothing advanced, just calling testcase.result(true) which should make the box turn green and the text should say "PASS".

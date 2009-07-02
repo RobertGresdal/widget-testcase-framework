@@ -1,0 +1,1 @@
+Attempts to see if the post method in the xhr() function is working properly.

@@ -1,0 +1,120 @@
+body, table {
+	font-family: monospace;
+	font-size:0.95em;
+}
+/* All main elements in the body should by 
+   default have a 1em top and bottom margin */
+body > * {
+	margin: 1em 0;
+}
+a {
+	text-decoration:none;
+}
+
+th {
+	border:1px solid #c8c8c8;
+	background:#f0f0f0;
+}
+td {
+	padding:0 0.5em;
+}
+tr.file {
+	
+}
+tr.dir td + td {
+	border-right:0.5em solid #d0d0d0;
+}
+
+tr.even {
+	background:#eeeeee;
+}
+tr.odd {
+	background:#f8f8f8;
+}
+
+tbody tr:hover {
+	/*border:1px solid #aaa;*/
+	background:#cccccc;
+}
+
+
+/**
+* The widget configuration
+*/
+div.widget.config {
+	border:1px solid #cccccc;
+}
+div.widget.config .header {
+	background:#f0f0f0;
+	border-bottom:1px solid #cccccc;
+	font-weight:bold;
+	text-align:center;
+}
+div.widget.config > div.comment {
+	margin:0.25em 0;
+	border-bottom:1px dotted #cccccc;
+	padding:0.25em;
+	padding-left:0.5em;
+}
+div.widget.config > div.comment > label {
+	display:none;
+}
+div.widget.config > div.comment > span {
+	white-space:pre-wrap;
+	background:#f0f0f0;
+}
+div.widget.config > div.setting {
+	display:inline-block;
+	border:1px solid #cccccc;
+	margin:0.25em 0 0.25em 0.5em;
+	white-space:nowrap;
+}
+div.widget.config > div.setting > label {
+	display:inline-block;
+	width:6em;
+	vertical-align:top;
+	background:#f0f0f0;
+	border-right:1px solid #cccccc;
+}
+div.widget.config > div.setting > span {
+	padding:0 0.5em;
+}
+
+
+/** 
+* Toolbar below the logo 
+*/
+div.toolbar {
+	background:#f0f0f0;
+	border:1px solid #cccccc;
+	padding:0.25em;
+}
+
+
+div.warning {
+	border:1px solid #cc6666;
+	background:#ffd0d0;
+	padding:0.25em;
+}
+
+
+div.tabbar {
+	border-bottom:1px solid #cccccc;
+}
+div.tabbar > span {
+	border:1px solid #cccccc;
+	background:#f0f0f0;
+	padding:0.25em;
+	padding-bottom:0;
+	margin-left:0.25em;
+}
+div.tabbar > span.selected {
+	border-bottom:1px solid white;
+	background:white;
+}
+
+
+div#header-logo {
+	font-size:1.6em;
+	font-weight:bold;
+}
