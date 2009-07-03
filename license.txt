@@ -4,6 +4,7 @@ All rights reserved.
 Dependencies 
 /library/mime/magic is licensed under Apache License, Version 2.0 <http://www.apache.org/licenses/LICENSE-2.0.txt>
 /library/mime/magic.mime is licensed under PHP License 3.01 <http://www.php.net/license/3_01.txt>
+/library/smarty is licensed under LGPL <http://www.gnu.org/licenses/lgpl-3.0.txt>
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
