@@ -12,9 +12,9 @@ function smarty_modifier_option_boolean($subject)
 { 
     $value=null;
     if( $subject ){
-        $value = '<image src="icons/tick.png" title="Enabled" alt="Enabled" />';
+        $value = '<image src="img/tick.png" title="Enabled" alt="Enabled" />';
     } else {
-        $value = '<image src="icons/cross.png" title="Disabled" alt="Disabled" />';
+        $value = '<image src="img/cross.png" title="Disabled" alt="Disabled" />';
     }
     
     return $value;
