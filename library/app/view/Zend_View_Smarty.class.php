@@ -8,7 +8,6 @@ class Zend_View_Smarty implements Zend_View_Interface
     protected $_smarty;
 
 
-    protected $_eventHandler;
     /**
      * Constructor
      *
@@ -19,7 +18,6 @@ class Zend_View_Smarty implements Zend_View_Interface
     public function __construct($tmplPath = null, $extraParams = array())
     {
         $this->_smarty = new Smarty;
-        $this->_eventHandler = new EventHandler;
 
         // Set default configuration
         $registry = Zend_Registry::getInstance();
@@ -261,8 +259,5 @@ class Zend_View_Smarty implements Zend_View_Interface
         }
     }
     
-    public function addEventListener($name, $callback){
-        return $this->_eventHandler->addEventListener($name,$callback);
-    }
 }
 ?>
